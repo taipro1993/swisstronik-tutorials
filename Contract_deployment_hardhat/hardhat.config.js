@@ -1,6 +1,6 @@
 require("@nomicfoundation/hardhat-toolbox");
 
-const PRIVATE_KEY = "d5fb2ba951e6986ec4215cb527327a0cebd789841cfa39890d852513c36671aa";
+const PRIVATE_KEY = "";
 // Remember to use the private key of a testing account
 // For better security practices, it's recommended to use npm i dotenv for storing secret variables
 
@@ -17,7 +17,6 @@ module.exports = {
 
 // prepare a trash wallet, no coins, export its privatekey
 
-// 0xdE80649897c07871A338f8DAa80d898457c72A4F,0xd5fb2ba951e6986ec4215cb527327a0cebd789841cfa39890d852513c36671aa
 // Using your main wallet, send some SWTR to this wallet
 
 // cd Contract_deployment_hardhat
@@ -32,4 +31,5 @@ module.exports = {
 
 // ok, we have completed the task simply
 // now update it to your github
+// dele privateKey
 // git add .
